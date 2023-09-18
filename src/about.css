@@ -1,0 +1,39 @@
+.education-title-card {
+  display: flex;
+  padding: 24px 32px;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 16px;
+  background: var(--primary-color-navy);
+  margin: 40px 40px;
+}
+.certificate-card {
+  display: flex;
+  width: 211px;
+  padding: 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  background-color: var(--secondary-color-blue);
+  border-radius: 12px;
+}
+.job-title-card {
+  display: flex;
+  width: 308px;
+  height: 392px;
+  padding: 24px 32px;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  border-radius: 16px;
+  background: var(--primary-color-navy);
+}
+.job-experince-card {
+  display: flex;
+  padding: 16px 24px;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+  border-radius: 12px;
+  background: var(--secondary-color-blue);
+}

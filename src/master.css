@@ -8,9 +8,42 @@
   --tertiary-color-lime: #ebfacf;
   --grey-color-dark: #535252;
   --grey-color-light: #f1f1f1;
-  --font-title: ;
+}
+.sans-title-md {
+  font-family: Source Sans Pro;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  color: var(--primary-color-navy);
+}
+.sans-title-lg {
+  font-family: Source Sans Pro;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  color: var(--primary-color-navy);
 }
 
 body {
   background-color: var(--primary-color-base);
+}
+
+.index-tag-bar {
+  display: inline-flex;
+  padding: 28.5px 53px 28.5px 54px;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--secondary-color-blue);
+}
+
+.tag {
+  display: flex;
+  padding: 12px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 4px;
+  background: var(--primary-color-base);
 }
