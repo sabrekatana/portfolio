@@ -1,0 +1,16 @@
+:root {
+  --primary-color-base: #ebeceb;
+  --primary-color-navy: #072f38;
+  --primary-color-green: #37514d;
+  --secondary-color-blue: #9cc4bc;
+  --secondary-color-sagegreeen: #a1ad95;
+  --secondary-color-orange: #e68c3a;
+  --tertiary-color-lime: #ebfacf;
+  --grey-color-dark: #535252;
+  --grey-color-light: #f1f1f1;
+  --font-title: ;
+}
+
+body {
+  background-color: var(--primary-color-base);
+}
