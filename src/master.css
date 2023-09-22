@@ -25,6 +25,18 @@
   line-height: normal;
   color: var(--primary-color-navy);
 }
+.navbar-toggler {
+  border-style: none;
+}
+
+.hamburger-icon {
+  width: 30px;
+  height: 30px;
+}
+.wordmark {
+  width: 200px;
+  height: 48px;
+}
 
 body {
   background-color: var(--primary-color-base);
