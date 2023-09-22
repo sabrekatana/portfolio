@@ -44,6 +44,7 @@ body {
 
 .index-tag-bar {
   display: inline-flex;
+  width: 100%;
   padding: 28.5px 53px 28.5px 54px;
   justify-content: center;
   align-items: center;
@@ -58,4 +59,12 @@ body {
   gap: 8px;
   border-radius: 4px;
   background: var(--primary-color-base);
+  margin: 0 8px;
+  font-size: 12px;
+}
+
+@media (max-width: 1000px) {
+  .index-tag-bar {
+    display: none;
+  }
 }
