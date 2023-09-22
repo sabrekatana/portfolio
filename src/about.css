@@ -24,8 +24,8 @@ h2 {
 }
 .job-title-card {
   display: flex;
-  width: 260px;
-  height: 300px;
+  width: 240px;
+  height: 260px;
   padding: 24px 32px;
   flex-direction: column;
   justify-content: space-between;
@@ -63,4 +63,8 @@ h2 {
   text-align: right;
   font-weight: 400;
   font-size: 20px;
+}
+.job-group {
+  display: block;
+  margin: 40px 40px;
 }
