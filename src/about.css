@@ -25,7 +25,7 @@ h2 {
 .job-title-card {
   display: flex;
   width: 240px;
-  height: 300px;
+  height: auto;
   padding: 24px 32px;
   flex-direction: column;
   justify-content: space-between;
@@ -78,7 +78,7 @@ h2 {
 .container .certificates {
   max-width: 100px;
 }
-@media (max-width:1100px) {
+@media (max-width: 1100px) {
   .experience-description {
     font-size: 14px;
   }
