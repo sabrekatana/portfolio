@@ -41,7 +41,6 @@ h2 {
   border-radius: 12px;
   background: var(--secondary-color-blue);
   margin: 8px 12px;
-  min-width: 700px;
 }
 .experience-description {
   color: var(--primary-color-navy);
@@ -73,21 +72,43 @@ h2 {
   font-weight: 400;
   font-size: 20px;
 }
-.container {
+.container .job {
   margin-bottom: 40px;
+  min-width: 600px;
 }
-@media (max-width: 1200px) {
+.container .certificates {
+  max-width: 100px;
+}
+@media (max-width: 700px) {
   .job-title-card {
     display: block;
-    width: 100%;
+    width: 94%;
     height: fit-content;
     margin: 0 auto;
+    border-radius: 12px;
   }
   .job-experience-card {
     display: block;
-    width: 100%;
+    width: 95%;
     height: fit-content;
     margin: 8px auto;
     min-width: 120px;
   }
+  .container .job {
+    margin: 24px auto;
+  }
+  .job-info {
+    font-size: 18px;
+  }
+  .work-place {
+    font-size: 16px;
+  }
+  .experience-description {
+    font-size: 14px;
+  }
+  .container {
+    min-width: 100px;
+  }
+}
+@media (min-width: 600px) {
 }
