@@ -65,11 +65,20 @@
         </div>
       </div>
     </nav>
-    <img src="assets/about-hero.png" width="100%" />
+    <picture>
+      <source srcset="assets/about-hero.png" media="(min-width: 900px)" />
+      <source srcset="assets/about-hero-small.png" media="(max-width: 900px)" />
+      <source srcset="flowers.jpg" />
+      <img
+        src="assets/about-hero.png"
+        alt="Hero image reads: My name is Sabre and I live in Washington. When I am not at my computer you can find me reading or watching Lord of the Rings. I am also responsible for keeping cats and houseplants alive with my wife. "
+        style="width: 100%"
+      />
+    </picture>
 
     <div class="container experience">
       <div class="row">
-        <div class="col-md">
+        <div class="col-lg">
           <h2>EXPERIENCE</h2>
 
           <div class="container job">
@@ -189,9 +198,7 @@
             </div>
           </div>
         </div>
-        <div class="col-sm certificates">
-
-        </div>
+        <div class="col-sm certificates"></div>
       </div>
     </div>
     <script
