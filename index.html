@@ -55,11 +55,36 @@
         </div>
       </div>
     </nav>
-    <img
-      src="assets/index-hero.svg"
-      width="100%"
-      alt="Image that says 'Experience designer and mentor, front end developer and designer. I am a front end developer and designer based in the inland Northwest. I enjoy crafting memorable, accessible, and inclusive digital experiences for users."
-    />
+    <picture>
+      <source srcset="assets/index-hero-2.svg" media="(min-width: 900px)" />
+      <source srcset="assets/index-hero-small.svg" media="(max-width: 900px)" />
+      <source srcset="flowers.jpg" />
+      <img
+        src="assets/index-hero-2.svg"
+        alt="Image that says 'Experience designer and mentor, front end developer and designer. I am a front end developer and designer based in the inland Northwest. I enjoy crafting memorable, accessible, and inclusive digital experiences for users."
+        style="width: 100%"
+      />
+    </picture>
+    <div class="description">
+      <h1>
+        Hello, I'm Sabre
+        <span><img src="/assets/underline.svg" class="underline" /></span>
+      </h1>
+      <h6 class="body-description">
+        I am a front-end developer, designer, and mentor based in the Inland
+        Northwest. I enjoy crafting memorable, accessible, and inclusive digital
+        experiences for users.
+      </h6>
+      <p class="tag-small">HTML5</p>
+      <p class="tag-small">CSS</p>
+      <p class="tag-small">MOBILE APP DESIGN</p>
+      <p class="tag-small">WEB DEVELOPMENT</p>
+      <p class="tag-small">JAVASCRIPT</p>
+      <p class="tag-small">REACT</p>
+      <p class="tag-small">GITHUB</p>
+      <p class="tag-small">FIGMA</p>
+    </div>
+
     <div class="index-tag-bar">
       <div class="tag">HTML5</div>
       <div class="tag">CSS</div>
@@ -106,6 +131,8 @@
         </div>
       </div>
     </div>
+    <div class="divider"><img src="/assets/divider.svg" class="divider-img" /></div>
+  
     <footer>
       <p>Designed and developed by Sabre Katana</p>
       <p>

@@ -22,7 +22,7 @@ footer {
   text-align: center;
   justify-content: center;
   padding: 20px 24px;
-  margin-top: 160px;
+  margin-top: 100px;
 }
 footer p {
   font-family: "Source Sans Pro", sans-serif;
@@ -69,7 +69,7 @@ footer p {
   padding: 20px 24px 20px 24px;
   justify-content: center;
   align-items: center;
-  background-color: var(--secondary-color-blue);
+  background-color: var(--secondary-color-orange);
 }
 
 .tag {
@@ -82,16 +82,44 @@ footer p {
   border-radius: 30px;
   background: var(--primary-color-base);
   margin: 0 8px;
-  font-size: 12px;
+  font-size: 13.5px;
 }
+
 .active {
   text-decoration: underline 0.08em wavy var(--secondary-color-orange);
   padding-bottom: 3px;
 }
+h1 {
+  font-family: "Source Sans Pro", sans-serif;
+  color: var(--primary-color-navy);
+}
+.underline {
+  width: 80px;
+}
+.description {
+  background-color: var(--secondary-color-blue);
+  padding: 24px 40px;
+}
+.body-description {
+  color: var(--primary-color-navy);
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+}
+.tag-small {
+  background-color: var(--primary-color-base);
+  padding: 8px 12px;
+  display: inline-flex;
+  margin: 8px 8px 4px 0px;
+  font-size: 12px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 700;
+  border-radius: 4px;
+}
 
 .work-image {
-  height: 200px;
-  width: 200px;
+  height: 250px;
+  width: 250px;
   transition: 300ms ease-in-out;
 }
 .work-image:hover {
@@ -138,13 +166,13 @@ footer p {
 }
 .works-title {
   font-family: "Source Sans Pro", sans-serif;
-  color: var(--primary-color-base);
+  color: var(--tertiary-color-lime);
   margin: 8px 16px;
 }
 .work-description {
   font-family: "Source Sans Pro", sans-serif;
   color: var(--primary-color-base);
-  margin: 8px 16px 24px 16px
+  margin: 8px 16px 24px 16px;
 }
 .work-button:hover {
   background-color: var(--secondary-color-orange);
@@ -155,9 +183,28 @@ footer p {
   width: 100%;
   margin: 0 auto;
   display: block;
+  padding: 30px;
 }
-@media (max-width: 850px) {
+.divider {
+  width: 100%;
+  margin: 60px 0 30px 0;
+}
+.divider-img {
+  width: 100%;
+}
+@media (max-width: 900px) {
   .index-tag-bar {
+    display: none;
+  }
+  .work-button {
+    margin: 0px 20px 0px 0px;
+  }
+  .description {
+    display: block;
+  }
+}
+@media (min-width: 900px) {
+  .description {
     display: none;
   }
 }
