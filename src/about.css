@@ -31,6 +31,9 @@ h2 {
   text-decoration: none;
   text-align: center;
 }
+.certificate-link:hover{
+text-decoration: underline .1em wavy var(--secondary-color-orange);
+}
 .job-title-card {
   display: flex;
   width: 240px;
@@ -40,8 +43,9 @@ h2 {
   justify-content: space-between;
   align-items: flex-start;
   border-radius: 16px;
-  background: var(--primary-color-navy);
+  background-color: var(--primary-color-navy);
 }
+
 .job-experience-card {
   display: flex;
   padding: 20px 24px 4px 24px;
@@ -93,6 +97,7 @@ h2 {
 .container .job {
   margin-bottom: 40px;
 }
+
 @media (max-width: 1200px) {
   .experience-description {
     font-size: 14px;
