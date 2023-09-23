@@ -29,6 +29,9 @@ footer p {
   color: var(--primary-color-base);
   font-size: 14px;
 }
+.footer-link {
+  margin: 0 8px;
+}
 .sans-title-md {
   font-family: "Source Sans Pro", sans-serif;
   font-size: 36px;
@@ -50,14 +53,16 @@ footer p {
 }
 
 .hamburger-icon {
-  width: 30px;
-  height: 30px;
+  width: 24px;
+  height: 24px;
 }
 .wordmark {
   width: 180px;
   height: 44px;
 }
-
+.nav-item {
+  padding-left: 24px;
+}
 .index-tag-bar {
   display: inline-flex;
   width: 100%;
@@ -78,6 +83,10 @@ footer p {
   background: var(--primary-color-base);
   margin: 0 8px;
   font-size: 12px;
+}
+.active {
+  text-decoration: underline 0.08em wavy var(--secondary-color-orange);
+  padding-bottom: 3px;
 }
 
 @media (max-width: 850px) {

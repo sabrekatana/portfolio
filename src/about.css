@@ -143,6 +143,7 @@ h2 {
   }
   .certificate-card {
     height: 70px;
+  }
 }
 @media (max-width: 700px) {
   .experience-description {
