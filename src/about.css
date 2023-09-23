@@ -25,7 +25,7 @@ h2 {
 .job-title-card {
   display: flex;
   width: 240px;
-  height: 260px;
+  height: 300px;
   padding: 24px 32px;
   flex-direction: column;
   justify-content: space-between;
@@ -33,14 +33,23 @@ h2 {
   border-radius: 16px;
   background: var(--primary-color-navy);
 }
-.job-experince-card {
+.job-experience-card {
   display: flex;
-  padding: 16px 24px;
+  padding: 20px 24px 4px 24px;
   align-items: center;
-  gap: 8px;
   align-self: stretch;
   border-radius: 12px;
   background: var(--secondary-color-blue);
+  margin: 8px 12px;
+  min-width: 700px;
+}
+.experience-description {
+  color: var(--primary-color-navy);
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 .job-info {
   color: var(--primary-color-base);
@@ -64,7 +73,21 @@ h2 {
   font-weight: 400;
   font-size: 20px;
 }
-.job-group {
-  display: block;
-  margin: 40px 40px;
+.container {
+  margin-bottom: 40px;
+}
+@media (max-width: 1200px) {
+  .job-title-card {
+    display: block;
+    width: 100%;
+    height: fit-content;
+    margin: 0 auto;
+  }
+  .job-experience-card {
+    display: block;
+    width: 100%;
+    height: fit-content;
+    margin: 8px auto;
+    min-width: 120px;
+  }
 }
