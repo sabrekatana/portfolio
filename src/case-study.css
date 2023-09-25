@@ -1,8 +1,16 @@
+.row {
+  margin-bottom: 32px;
+}
+.container {
+  max-width: 900px;
+}
+
 .project-heading {
   font-family: "Source Sans Pro", sans-serif;
-  color: var(--secondary-color-orange);
-  font-size: 28px;
+  color: var(--primary-color-green);
+  font-size: 34px;
   font-weight: 700;
+  margin-bottom: 24px;
 }
 .project-subheading {
   font-family: "Source Sans Pro", sans-serif;
@@ -12,17 +20,36 @@
 }
 .project-subtitle {
   font-family: "Source Sans Pro", sans-serif;
-  color: var(--primary-color-navy);
+  color: var(--secondary-color-orange);
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 600;
+  text-align: left;
+  margin-bottom: 12px;
 }
 .project-body {
   font-family: "Source Sans Pro", sans-serif;
   color: var(--primary-color-navy);
   font-size: 16px;
+  text-align: left;
 }
 .key-words {
   font-family: "Source Sans Pro", sans-serif;
   color: var(--secondary-color-orange);
   font-size: 16px;
+}
+.page {
+  font-family: "Source Sans Pro", sans-serif;
+  color: var(--primary-color-navy);
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  margin-top:-8px;
+}
+.page:hover{
+  color: var(--secondary-color-orange)
+}
+
+li {
+  padding-bottom: 4px;
+  text-align: left;
 }
