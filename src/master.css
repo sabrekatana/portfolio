@@ -15,9 +15,8 @@ body {
   background-color: var(--primary-color-base);
 }
 footer {
-  display: inline-flex;
   width: 100%;
-  height: 60px;
+  height: fit-content;
   background-color: var(--primary-color-navy);
   text-align: center;
   justify-content: center;
@@ -27,10 +26,16 @@ footer {
 footer p {
   font-family: "Source Sans Pro", sans-serif;
   color: var(--primary-color-base);
-  font-size: 14px;
+  font-size: 16px;
+  text-align: center;
 }
 .footer-link {
   margin: 0 8px;
+  width:30px;
+}
+.footer-icons {
+  display: block;
+  margin: 0 auto;
 }
 .sans-title-md {
   font-family: "Source Sans Pro", sans-serif;
@@ -76,7 +81,7 @@ footer p {
   display: flex;
   font-family: "Source Sans Pro", sans-serif;
   font-weight: 700;
-  padding: 12px 20px;
+  padding: 8px 16px 4px 16px;
   justify-content: center;
   align-items: center;
   border-radius: 30px;
