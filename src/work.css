@@ -1,0 +1,62 @@
+.work-card {
+  display: flex;
+  padding: 40px 24px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  background-color: var(--primary-color-navy);
+}
+.work-button {
+  display: flex;
+  padding: 12px 0px;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 8px;
+  margin: 0px 50px 0px 0px;
+  align-self: stretch;
+  background-color: var(--primary-color-base);
+  color: var(--secondary-color-orange);
+  text-decoration: none;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  border-style: solid;
+  border-color: var(--primary-color-base);
+  border-radius: 30px;
+  transition: 300ms ease-in left;
+}
+.works-title {
+  font-family: "Source Sans Pro", sans-serif;
+  color: var(--tertiary-color-lime);
+  margin: 8px 16px;
+}
+.work-description {
+  font-family: "Source Sans Pro", sans-serif;
+  color: var(--primary-color-base);
+  margin: 8px 16px 24px 16px;
+}
+.button:hover {
+  background-color: var(--secondary-color-orange);
+  color: var(--primary-color-base);
+}
+.work-preview {
+  background-color: var(--primary-color-navy);
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+  padding: 30px;
+}
+.work-image {
+  height: 250px;
+  width: 250px;
+  transition: 300ms ease-in-out;
+}
+.work-image:hover {
+  scale: 1.2;
+}
+.title {
+  font-family: "Source Sans Pro", sans-serif;
+  color: var(--primary-color-base);
+  margin-bottom: 40px;
+}

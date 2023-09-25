@@ -136,7 +136,7 @@ h1 {
   background-color: var(--primary-color-navy);
   padding: 40px;
 }
-.work-card {
+.index-work-card {
   display: flex;
   padding: 40px 24px;
   flex-direction: column;
@@ -164,12 +164,12 @@ h1 {
   border-radius: 30px;
   transition: 300ms ease-in left;
 }
-.works-title {
+.index-works-title {
   font-family: "Source Sans Pro", sans-serif;
   color: var(--tertiary-color-lime);
   margin: 8px 16px;
 }
-.work-description {
+.index-work-description {
   font-family: "Source Sans Pro", sans-serif;
   color: var(--primary-color-base);
   margin: 8px 16px 24px 16px;
@@ -178,7 +178,7 @@ h1 {
   background-color: var(--secondary-color-orange);
   color: var(--primary-color-base);
 }
-.work-preview {
+.index-work-preview {
   background-color: var(--primary-color-navy);
   width: 100%;
   margin: 0 auto;
