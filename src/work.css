@@ -1,16 +1,13 @@
 .container {
-  margin-bottom: 24px;
+  margin-bottom: 32px;
 }
 .action-button {
   display: flex;
   padding: 12px 0px;
   justify-content: center;
-  align-items: flex-start;
-  gap: 8px;
-  margin: 0px 50px 0px 0px;
-  align-self: stretch;
-  background-color: var(--primary-color-base);
-  color: var(--secondary-color-orange);
+  width: auto;
+  background-color: var(--secondary-color-orange);
+  color: var(--primary-color-base);
   text-decoration: none;
   font-family: "Source Sans Pro", sans-serif;
   font-size: 16px;
@@ -23,16 +20,19 @@
 .works-title {
   font-family: "Source Sans Pro", sans-serif;
   color: var(--primary-color-navy);
+  font-size: 24px;
   margin: 8px 0px;
 }
 .work-description {
   font-family: "Source Sans Pro", sans-serif;
   color: var(--primary-color-navy);
-  margin: 8px 0px;
+  margin: 8px 0px 16px 0px;
+  font-size: 16px;
 }
-.button:hover {
-  background-color: var(--secondary-color-orange);
-  color: var(--primary-color-base);
+.action-button:hover {
+  background-color: var(--primary-color-base);
+  border-color: var(--secondary-color-orange);
+  color: var(--secondary-color-orange);
 }
 .work-preview {
   background-color: var(--primary-color-navy);
@@ -41,14 +41,7 @@
   display: block;
   padding: 30px;
 }
-.work-image {
-  height: 250px;
-  width: 250px;
-  transition: 300ms ease-in-out;
-}
-.work-image:hover {
-  scale: 1.2;
-}
+
 .work-title {
   font-family: "Source Sans Pro", sans-serif;
   color: var(--primary-color-navy);
@@ -56,14 +49,14 @@
   margin-top: 40px;
 }
 .tag-work-type {
-  background-color: var(--secondary-color-orange);
-  padding: 8px 12px;
+  background-color: var(--primary-color-navy);
+  padding: 4px 12px;
   display: inline-flex;
-  margin: 8px 8px 4px 0px;
+  margin: 4px 4px 4px 0px;
   font-size: 12px;
   font-family: "Source Sans Pro", sans-serif;
   color: var(--primary-color-base);
-  font-weight: 700;
+  font-weight: 500;
   border-radius: 4px;
 }
 .card {
