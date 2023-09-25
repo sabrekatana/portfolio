@@ -49,10 +49,11 @@
 .work-image:hover {
   scale: 1.2;
 }
-.title {
+.work-title {
   font-family: "Source Sans Pro", sans-serif;
-  color: var(--primary-color-base);
+  color: var(--primary-color-navy);
   margin-bottom: 40px;
+  margin-top: 40px;
 }
 .tag-work-type {
   background-color: var(--secondary-color-orange);
