@@ -1,0 +1,28 @@
+.project-heading {
+  font-family: "Source Sans Pro", sans-serif;
+  color: var(--secondary-color-orange);
+  font-size: 28px;
+  font-weight: 700;
+}
+.project-subheading {
+  font-family: "Source Sans Pro", sans-serif;
+  color: var(--primary-color-navy);
+  font-size: 22px;
+  font-weight: 700;
+}
+.project-subtitle {
+  font-family: "Source Sans Pro", sans-serif;
+  color: var(--primary-color-navy);
+  font-size: 20px;
+  font-weight: 500;
+}
+.project-body {
+  font-family: "Source Sans Pro", sans-serif;
+  color: var(--primary-color-navy);
+  font-size: 16px;
+}
+.key-words {
+  font-family: "Source Sans Pro", sans-serif;
+  color: var(--secondary-color-orange);
+  font-size: 16px;
+}

@@ -60,5 +60,5 @@
   border-radius: 4px;
 }
 .card {
-  border-color: var(--primary-color-base)
+  border-color: var(--primary-color-base);
 }

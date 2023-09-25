@@ -31,7 +31,7 @@ footer p {
 }
 .footer-link {
   margin: 0 8px;
-  width:30px;
+  width: 30px;
 }
 .footer-icons {
   display: block;
@@ -197,6 +197,7 @@ h1 {
 .divider-img {
   width: 100%;
 }
+
 @media (max-width: 900px) {
   .index-tag-bar {
     display: none;
