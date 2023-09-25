@@ -5,7 +5,6 @@
   justify-content: center;
   align-items: center;
   gap: 16px;
-  background-color: var(--primary-color-navy);
 }
 .work-button {
   display: flex;
@@ -28,12 +27,12 @@
 }
 .works-title {
   font-family: "Source Sans Pro", sans-serif;
-  color: var(--tertiary-color-lime);
+  color: var(--primary-color-navy);
   margin: 8px 16px;
 }
 .work-description {
   font-family: "Source Sans Pro", sans-serif;
-  color: var(--primary-color-base);
+  color: var(--primary-color-navy);
   margin: 8px 16px 24px 16px;
 }
 .button:hover {
