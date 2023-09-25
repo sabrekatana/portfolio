@@ -60,3 +60,14 @@
   color: var(--primary-color-base);
   margin-bottom: 40px;
 }
+.tag-work-type {
+  background-color: var(--secondary-color-orange);
+  padding: 8px 12px;
+  display: inline-flex;
+  margin: 8px 8px 4px 0px;
+  font-size: 12px;
+  font-family: "Source Sans Pro", sans-serif;
+  color: var(--primary-color-base);
+  font-weight: 700;
+  border-radius: 4px;
+}
