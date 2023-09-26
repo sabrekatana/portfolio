@@ -91,9 +91,16 @@ footer p {
 }
 
 .active {
-  text-decoration: underline 0.08em wavy var(--secondary-color-orange);
+  text-decoration: underline 0.3em var(--secondary-color-orange);
   padding-bottom: 3px;
 }
+.nav-item {
+  text-align: center;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+}
+
 h1 {
   font-family: "Source Sans Pro", sans-serif;
   color: var(--primary-color-navy);
