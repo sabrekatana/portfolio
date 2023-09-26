@@ -31,8 +31,8 @@ h2 {
   text-decoration: none;
   text-align: center;
 }
-.certificate-link:hover{
-text-decoration: underline .1em wavy var(--secondary-color-orange);
+.certificate-link:hover {
+  text-decoration: underline 0.1em wavy var(--secondary-color-orange);
 }
 .job-title-card {
   display: flex;
@@ -157,5 +157,4 @@ text-decoration: underline .1em wavy var(--secondary-color-orange);
   .time {
     font-size: 14px;
   }
-  
 }
