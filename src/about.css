@@ -20,6 +20,7 @@ h2 {
   align-items: center;
   background-color: var(--tertiary-color-lime);
   border-radius: 12px;
+  margin-bottom: 12px;
 }
 .certificate-link {
   color: var(--primary-color-navy);
