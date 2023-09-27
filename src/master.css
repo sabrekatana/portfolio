@@ -194,26 +194,12 @@ h1 {
 }
 
 @media (max-width: 900px) {
-  .index-tag-bar {
-    display: none;
-  }
-  .work-button {
-    margin: 0px 20px 0px 0px;
-  }
-  .description {
-    display: block;
-  }
   .break-image {
     margin-bottom: -6px;
   }
 }
-@media (min-width: 900px) {
-  .description {
-    display: none;
-  }
-}
 @media (max-width: 500px) {
   .break-image {
-    margin-bottom: -3px;
+    margin-bottom: -4px;
   }
 }
