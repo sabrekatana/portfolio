@@ -68,9 +68,7 @@
   color: var(--tertiary-color-lime);
   font-family: monospace;
   font-size: 20px;
-  font-style: normal;
   font-weight: 400;
-  line-height: normal;
   text-decoration: none;
 }
 .work-place:hover {
@@ -150,6 +148,7 @@
 @media (max-width: 500px) {
   .experience-description {
     font-size: 14px;
+    font-weight: 500px;
   }
   .time {
     font-size: 14px;
