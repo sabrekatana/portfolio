@@ -1,17 +1,17 @@
 :root {
   /* Colors */
-  --primary-color-base: #fafafa;
-  --primary-color-navy: #072f38;
-  --primary-color-green: #37514d;
-  --secondary-color-blue: #9cc4bc;
-  --secondary-color-sagegreeen: #a1ad95;
-  --secondary-color-orange: #e68c3a;
+  --primary-color-base: #fff7ec;
+  --primary-color-navy: #0a2342;
+  --primary-color-green: #5e807f;
+  --secondary-color-orange: #fc7a57;
   --tertiary-color-lime: #ebfacf;
-  --grey-color-dark: #535252;
-  --grey-color-light: #f1f1f1;
+  --grey-color-dark: #424242;
 }
 
 body {
+  background-color: var(--primary-color-base);
+}
+.work-background {
   background-color: var(--primary-color-base);
 }
 footer {
@@ -21,10 +21,9 @@ footer {
   text-align: center;
   justify-content: center;
   padding: 20px 24px;
-  margin-top: 100px;
 }
 footer p {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: monospace;
   color: var(--primary-color-base);
   font-size: 16px;
   text-align: center;
@@ -38,7 +37,7 @@ footer p {
   margin: 0 auto;
 }
 .sans-title-md {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family:'Archivo Black', sans-serif;
   font-size: 36px;
   font-style: normal;
   font-weight: 600;
@@ -46,7 +45,7 @@ footer p {
   color: var(--primary-color-navy);
 }
 .sans-title-lg {
-  font-family: Source Sans Pro;
+  font-family: 'Archivo Black', sans-serif;
   font-size: 50px;
   font-style: normal;
   font-weight: 600;
@@ -56,14 +55,13 @@ footer p {
 .navbar-toggler {
   border-style: none;
 }
-
 .hamburger-icon {
   width: 24px;
   height: 24px;
 }
 .wordmark {
-  width: 180px;
-  height: 44px;
+  height: 30px;
+  margin-left: 20px;
 }
 .nav-item {
   padding-left: 24px;
@@ -79,7 +77,7 @@ footer p {
 
 .tag {
   display: flex;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: monospace;
   font-weight: 700;
   padding: 8px 16px 4px 16px;
   justify-content: center;
@@ -94,17 +92,14 @@ footer p {
   text-decoration: underline 0.3em var(--secondary-color-orange);
   padding-bottom: 3px;
 }
-.nav-item {
+.navbar-nav {
   text-align: center;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: 'Archivo Black', sans-serif;
   font-size: 16px;
   font-weight: bold;
+
 }
 
-h1 {
-  font-family: "Source Sans Pro", sans-serif;
-  color: var(--primary-color-navy);
-}
 .underline {
   width: 80px;
 }
@@ -114,7 +109,7 @@ h1 {
 }
 .body-description {
   color: var(--primary-color-navy);
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: monospace;
   font-weight: 500;
   font-size: 18px;
 }
@@ -124,7 +119,7 @@ h1 {
   display: inline-flex;
   margin: 8px 8px 4px 0px;
   font-size: 12px;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: monospace;
   font-weight: 700;
   border-radius: 4px;
 }
@@ -143,54 +138,48 @@ h1 {
   padding: 12px 0px;
   justify-content: center;
   width: auto;
-  background-color: var(--secondary-color-orange);
+  background-color: var(--primary-color-green);
   color: var(--primary-color-base);
   text-decoration: none;
   font-family: "Source Sans Pro", sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: bold;
   border-style: solid;
   border-color: var(--primary-color-base);
   border-radius: 30px;
   transition: 300ms ease-in left;
 }
-.works-title {
-  font-family: "Source Sans Pro", sans-serif;
+.work-title {
+  font-family: 'Archivo Black', sans-serif;
   color: var(--primary-color-navy);
   font-size: 24px;
   margin: 8px 0px;
 }
 .work-description {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: monospace;
   color: var(--primary-color-navy);
   margin: 8px 0px 16px 0px;
   font-size: 16px;
 }
 .action-button:hover {
   background-color: var(--primary-color-base);
-  border-color: var(--secondary-color-orange);
-  color: var(--secondary-color-orange);
-}
-.work-preview {
-  background-color: var(--primary-color-navy);
-  width: 100%;
-  margin: 0 auto;
-  display: block;
-  padding: 30px;
+  border-color: var(--primary-color-green);
+  color: var(--primary-color-green);
 }
 
-.work-title {
-  font-family: "Source Sans Pro", sans-serif;
+h1 {
+  font-family: 'Archivo Black', sans-serif;
   color: var(--primary-color-navy);
   margin-bottom: 40px;
   margin-top: 40px;
 }
+
 .tag-work-type {
-  background-color: var(--primary-color-navy);
+  background-color: var(--secondary-color-orange);
   padding: 4px 12px;
   display: inline-flex;
   margin: 4px 4px 4px 0px;
-  font-size: 12px;
+  font-size: 14px;
   font-family: "Source Sans Pro", sans-serif;
   color: var(--primary-color-base);
   font-weight: 500;
@@ -198,6 +187,10 @@ h1 {
 }
 .card {
   border-color: var(--primary-color-base);
+  background-color: var(--primary-color-base);
+}
+.break-image{
+  margin-bottom: -11px;
 }
 
 @media (max-width: 900px) {
@@ -209,6 +202,9 @@ h1 {
   }
   .description {
     display: block;
+  }
+  .break-image {
+    margin-bottom: -6px;
   }
 }
 @media (min-width: 900px) {
