@@ -193,7 +193,7 @@ h1 {
   margin-bottom: -11px;
 }
 
-@media (max-width: 900px) {
+@media (min-width: 500px) and (max-width: 900px) {
   .break-image {
     margin-bottom: -6px;
   }
