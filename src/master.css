@@ -37,7 +37,7 @@ footer p {
   margin: 0 auto;
 }
 .sans-title-md {
-  font-family:'Archivo Black', sans-serif;
+  font-family: "Archivo Black", sans-serif;
   font-size: 36px;
   font-style: normal;
   font-weight: 600;
@@ -45,7 +45,7 @@ footer p {
   color: var(--primary-color-navy);
 }
 .sans-title-lg {
-  font-family: 'Archivo Black', sans-serif;
+  font-family: "Archivo Black", sans-serif;
   font-size: 50px;
   font-style: normal;
   font-weight: 600;
@@ -67,21 +67,16 @@ footer p {
   padding-left: 24px;
 }
 
-
-
-
 .active {
   text-decoration: underline 0.3em var(--secondary-color-orange);
   padding-bottom: 3px;
 }
 .navbar-nav {
   text-align: center;
-  font-family: 'Archivo Black', sans-serif;
+  font-family: "Archivo Black", sans-serif;
   font-size: 16px;
   font-weight: bold;
-
 }
-
 
 .description {
   background-color: var(--secondary-color-blue);
@@ -114,7 +109,7 @@ footer p {
   transition: 300ms ease-in left;
 }
 .work-title {
-  font-family: 'Archivo Black', sans-serif;
+  font-family: "Archivo Black", sans-serif;
   color: var(--primary-color-navy);
   font-size: 24px;
   margin: 8px 0px;
@@ -132,7 +127,7 @@ footer p {
 }
 
 h1 {
-  font-family: 'Archivo Black', sans-serif;
+  font-family: "Archivo Black", sans-serif;
   color: var(--primary-color-navy);
   margin-bottom: 40px;
   margin-top: 40px;
@@ -153,7 +148,7 @@ h1 {
   border-color: var(--primary-color-base);
   background-color: var(--primary-color-base);
 }
-.break-image{
+.break-image {
   margin-bottom: -11px;
 }
 
