@@ -56,8 +56,8 @@ footer p {
   border-style: none;
 }
 .hamburger-icon {
-  width: 24px;
-  height: 24px;
+  width: 32px;
+  height: 32px;
 }
 .wordmark {
   height: 30px;
@@ -66,27 +66,9 @@ footer p {
 .nav-item {
   padding-left: 24px;
 }
-.index-tag-bar {
-  display: inline-flex;
-  width: 100%;
-  padding: 20px 24px 20px 24px;
-  justify-content: center;
-  align-items: center;
-  background-color: var(--secondary-color-orange);
-}
 
-.tag {
-  display: flex;
-  font-family: monospace;
-  font-weight: 700;
-  padding: 8px 16px 4px 16px;
-  justify-content: center;
-  align-items: center;
-  border-radius: 30px;
-  background: var(--primary-color-base);
-  margin: 0 8px;
-  font-size: 13.5px;
-}
+
+
 
 .active {
   text-decoration: underline 0.3em var(--secondary-color-orange);
@@ -100,9 +82,7 @@ footer p {
 
 }
 
-.underline {
-  width: 80px;
-}
+
 .description {
   background-color: var(--secondary-color-blue);
   padding: 24px 40px;
@@ -113,23 +93,7 @@ footer p {
   font-weight: 500;
   font-size: 18px;
 }
-.tag-small {
-  background-color: var(--primary-color-base);
-  padding: 8px 12px;
-  display: inline-flex;
-  margin: 8px 8px 4px 0px;
-  font-size: 12px;
-  font-family: monospace;
-  font-weight: 700;
-  border-radius: 4px;
-}
-.index-work-preview {
-  background-color: var(--primary-color-navy);
-  width: 100%;
-  margin: 0 auto;
-  display: block;
-  padding: 30px;
-}
+
 .container {
   margin-bottom: 32px;
 }
