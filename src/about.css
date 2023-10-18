@@ -55,9 +55,9 @@
 .experience-description {
   color: var(--primary-color-base);
   font-family:monospace;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 500;
-  line-height: normal;
+  line-height: 1.5;
 }
 .job-info {
   color: var(--primary-color-base);
